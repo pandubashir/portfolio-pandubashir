@@ -8,7 +8,93 @@ export default function Projects() {
         My Best Creations.
       </FadeIn>
 
-       <FadeIn as="div">
+      <FadeIn as="div">
+        <a
+          href="https://huggingface.co/spaces/p4nduu/ravenstack-churn"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-card"
+        >
+          <div
+            className="project-orb"
+            style={{ width: 300, height: 300, background: "rgba(139,92,246,0.15)", top: -80, right: -80 }}
+          />
+          <div
+            className="project-orb"
+            style={{ width: 200, height: 200, background: "rgba(99,102,241,0.1)", bottom: -40, left: "20%" }}
+          />
+          <div className="project-tags">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#a78bfa"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <rect x="3" y="12" width="4" height="8" fill="#a78bfa" fillOpacity="0.25" />
+              <rect x="10" y="8" width="4" height="12" fill="#a78bfa" fillOpacity="0.4" />
+              <rect x="17" y="4" width="4" height="16" fill="#a78bfa" fillOpacity="0.6" />
+              <path d="M3 9 L10 5 L14 7 L21 2" />
+              <path d="M17 2 L21 2 L21 6" />
+            </svg>
+            <span className="project-tag">Data Science</span>
+            <span className="project-tag">Machine Learning</span>
+            <span className="project-tag">Streamlit</span>
+            <span className="project-tag">Churn Prediction</span>
+            <span className="project-tag">B2B SaaS</span>
+          </div>
+          <h3 className="project-title">RavenStack Churn Prediction</h3>
+          <p className="project-desc">
+            An end-to-end customer churn prediction pipeline for RavenStack, a
+            fictional B2B SaaS company offering a cloud-based CRM and Sales
+            Enablement platform. Deployed as an interactive Streamlit app on
+            Hugging Face Spaces that predicts churn risk from customer usage
+            and account data.
+          </p>
+          <div className="project-link">
+            <span>View Project</span>
+            <div className="project-link-arrow">-&gt;</div>
+          </div>
+        </a>
+      </FadeIn>
+
+      <FadeIn as="div">
+        <a
+          href="https://lifedashboardpandu.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-card"
+        >
+          <div
+            className="project-orb"
+            style={{ width: 300, height: 300, background: "rgba(139,92,246,0.15)", top: -80, right: -80 }}
+          />
+          <div
+            className="project-orb"
+            style={{ width: 200, height: 200, background: "rgba(99,102,241,0.1)", bottom: -40, left: "20%" }}
+          />
+          <div className="project-tags">
+            <span style={{ fontSize: "2rem" }}>&#128202;</span>
+            <span className="project-tag">Web Development</span>
+            <span className="project-tag">React</span>
+            <span className="project-tag">Dashboard</span>
+          </div>
+          <h3 className="project-title">Life Dashboard</h3>
+          <p className="project-desc">
+            A personal dashboard web app for tracking daily activities, goals,
+            and habits in one clean, centralized interface.
+          </p>
+          <div className="project-link">
+            <span>View Project</span>
+            <div className="project-link-arrow">-&gt;</div>
+          </div>
+        </a>
+      </FadeIn>
+
+      <FadeIn as="div">
         <a
           href="https://huggingface.co/spaces/p4nduu/garbage-classification"
           target="_blank"
@@ -24,7 +110,7 @@ export default function Projects() {
             style={{ width: 200, height: 200, background: "rgba(99,102,241,0.1)", bottom: -40, left: "20%" }}
           />
           <div className="project-tags">
-            <span style={{ fontSize: "2rem" }}>♻️</span>
+            <span style={{ fontSize: "2rem" }}>&#9851;&#65039;</span>
             <span className="project-tag">Deep Learning</span>
             <span className="project-tag">Computer Vision</span>
             <span className="project-tag">Gradio</span>
@@ -38,11 +124,81 @@ export default function Projects() {
           </p>
           <div className="project-link">
             <span>View Project</span>
-            <div className="project-link-arrow">→</div>
+            <div className="project-link-arrow">-&gt;</div>
           </div>
         </a>
       </FadeIn>
 
+      <FadeIn as="div">
+        <a
+          href="https://public.tableau.com/shared/95HDQKTNZ?:display_count=n&:origin=viz_share_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-card"
+        >
+          <div
+            className="project-orb"
+            style={{ width: 300, height: 300, background: "rgba(139,92,246,0.15)", top: -80, right: -80 }}
+          />
+          <div
+            className="project-orb"
+            style={{ width: 200, height: 200, background: "rgba(99,102,241,0.1)", bottom: -40, left: "20%" }}
+          />
+          <div className="project-tags">
+            <span style={{ fontSize: "2rem" }}>&#128200;</span>
+            <span className="project-tag">Data Visualization</span>
+            <span className="project-tag">Tableau</span>
+            <span className="project-tag">Data Analysis</span>
+          </div>
+          <h3 className="project-title">Tableau Data Visualization</h3>
+          <p className="project-desc">
+            An interactive Tableau Public dashboard turning raw data into clear,
+            explorable visual insights.
+          </p>
+          <div className="project-link">
+            <span>View Project</span>
+            <div className="project-link-arrow">-&gt;</div>
+          </div>
+        </a>
+      </FadeIn>
+
+      <FadeIn as="div">
+        <a
+          href="https://web-churn-prediction-telco-ncvt4xouveak9nk23l4xi4.streamlit.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-card"
+        >
+          <div
+            className="project-orb"
+            style={{ width: 300, height: 300, background: "rgba(139,92,246,0.15)", top: -80, right: -80 }}
+          />
+          <div
+            className="project-orb"
+            style={{ width: 200, height: 200, background: "rgba(99,102,241,0.1)", bottom: -40, left: "20%" }}
+          />
+          <div className="project-tags">
+            <span style={{ fontSize: "2rem" }}>&#128225;</span>
+            <span className="project-tag">Data Science</span>
+            <span className="project-tag">Machine Learning</span>
+            <span className="project-tag">EDA</span>
+            <span className="project-tag">Streamlit</span>
+            <span className="project-tag">Classification</span>
+          </div>
+          <h3 className="project-title">Telco Customer Churn Prediction</h3>
+          <p className="project-desc">
+            An end-to-end machine learning project predicting customer churn risk
+            for a telecommunications company using the public Telco Customer Churn
+            dataset (IBM/Kaggle). Covers EDA, data preparation, multiple
+            classification model experiments, model evaluation and interpretation,
+            deployed as an interactive web dashboard.
+          </p>
+          <div className="project-link">
+            <span>View Project</span>
+            <div className="project-link-arrow">-&gt;</div>
+          </div>
+        </a>
+      </FadeIn>
 
       <FadeIn as="div">
         <a
@@ -60,7 +216,7 @@ export default function Projects() {
             style={{ width: 200, height: 200, background: "rgba(99,102,241,0.1)", bottom: -40, left: "20%" }}
           />
           <div className="project-tags">
-            <span style={{ fontSize: "2rem" }}>🧬</span>
+            <span style={{ fontSize: "2rem" }}>&#129516;</span>
             <span className="project-tag">Machine Learning</span>
             <span className="project-tag">Flask</span>
             <span className="project-tag">SQLite</span>
@@ -73,7 +229,7 @@ export default function Projects() {
           </p>
           <div className="project-link">
             <span>View Project</span>
-            <div className="project-link-arrow">→</div>
+            <div className="project-link-arrow">-&gt;</div>
           </div>
         </a>
       </FadeIn>
