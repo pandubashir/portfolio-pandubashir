@@ -105,9 +105,9 @@ export default function Hero() {
         <p className="hero-tagline">Where Robust Logic Meets, Seamless Execution.</p>
         <TypedText />
         <p className="hero-desc">
-          A Software Engineer passionate about Data Science, Data Analysis, and building
-          functional systems you can rely on. Currently exploring machine learning, web
-          development, and digital forensics.
+          A Software Engineer passionate about Data Science, Data Analysis,
+          and building functional systems you can rely on. 
+          Currently exploring machine learning, web development, and predictive analytics.
         </p>
         <div className="hero-btns">
           <MagneticBtn
