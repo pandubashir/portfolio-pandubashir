@@ -98,6 +98,62 @@ export default function Projects() {
           </div>
         </a>
       </FadeIn>
+      <FadeIn as="div">
+          <a
+            href="https://web-ihsg-historical-market-analysis.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card"
+          >
+            <div
+              className="project-orb"
+              style={{
+                width: 300,
+                height: 300,
+                background: "rgba(139,92,246,0.15)",
+                top: -80,
+                right: -80
+              }}
+            />
+            <div
+              className="project-orb"
+              style={{
+                width: 200,
+                height: 200,
+                background: "rgba(99,102,241,0.1)",
+                bottom: -40,
+                left: "20%"
+              }}
+            />
+
+            <div className="project-tags">
+              <span style={{ fontSize: "2rem" }}>&#128200;</span>
+              <span className="project-tag">Data Analysis</span>
+              <span className="project-tag">Data Management</span>
+              <span className="project-tag">Python</span>
+              <span className="project-tag">Statistics</span>
+              <span className="project-tag">Tableau</span>
+            </div>
+
+            <h3 className="project-title">
+              Historical IHSG Market Analysis
+            </h3>
+
+            <p className="project-desc">
+              An end-to-end analysis of 7,681 IHSG trading days from 1995–2025,
+              covering data validation, feature engineering, exploratory data analysis,
+              market volatility, drawdown, crisis-recovery cycles, seasonality, and
+              volume-price relationships. Statistical validation was performed using
+              non-parametric tests, with findings presented through an interactive
+              Tableau dashboard.
+            </p>
+
+            <div className="project-link">
+              <span>View Case Study</span>
+              <div className="project-link-arrow">-&gt;</div>
+            </div>
+          </a>
+        </FadeIn>
 
       <FadeIn as="div">
       <a
