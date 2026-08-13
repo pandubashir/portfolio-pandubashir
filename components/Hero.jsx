@@ -117,9 +117,9 @@ export default function Hero() {
         <p className="hero-greeting">Hey, I&apos;m Pandu 👋</p>
 
         <h1 className="hero-title">
-          Data Analyst
+          Data Science
           <br />
-          <span className="grad">& Data Science Enthusiast</span>
+          <span className="grad">& Data Analyst Enthusiast</span>
         </h1>
 
         <p className="hero-tagline">
@@ -129,10 +129,10 @@ export default function Hero() {
         <TypedText />
 
         <p className="hero-desc">
-          A Data Analyst with a growing passion for Data Science, focused on
-          uncovering insights from data and building reliable, functional
-          systems. Currently exploring machine learning, web development, and
-          predictive analytics.
+         A Data Science enthusiast with a strong interest in Data Analysis, 
+         focused on uncovering insights from data and building data-driven solutions. 
+         Currently exploring machine learning, predictive analytics, and data visualization.
+
         </p>
 
         <div className="hero-btns">
