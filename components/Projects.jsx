@@ -86,11 +86,10 @@ export default function Projects() {
           </div>
           <h3 className="project-title">RavenStack Churn Prediction</h3>
           <p className="project-desc">
-            An end-to-end customer churn prediction pipeline for RavenStack, a
-            fictional B2B SaaS company offering a cloud-based CRM and Sales
-            Enablement platform. Deployed as an interactive Streamlit app on
-            Hugging Face Spaces that predicts churn risk from customer usage
-            and account data.
+            An end-to-end churn prediction pipeline for a fictional B2B SaaS Customer Success platform. 
+            Trained a Random Forest model achieving 86% recall on a 500-account dataset, 
+            including a self-conducted data leakage audit that identified and removed 14 contaminated features. 
+            Deployed as an interactive Streamlit app on Hugging Face Spaces.
           </p>
           <div className="project-link">
             <span>View Project</span>
