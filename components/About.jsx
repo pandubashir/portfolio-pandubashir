@@ -28,10 +28,10 @@ export default function About() {
         About me.
       </FadeIn>
       <FadeIn as="p" className="about-text">
-        Data Analyst with a strong enthusiasm for Data Science. Passionate about
-        turning raw data into meaningful insights while continuously improving
-        technical skills. Interested in data visualization, predictive analytics,
-        and solving real-world problems through data-driven approaches.
+       A Data Science enthusiast with a strong interest in Data Analysis. 
+       Passionate about turning raw data into meaningful insights while continuously improving technical skills. 
+       Interested in data visualization, predictive analytics, and solving real-world problems through data-driven approaches.
+
       </FadeIn>
       <FadeIn className="about-grid">
         <div className="glass glass-card">
