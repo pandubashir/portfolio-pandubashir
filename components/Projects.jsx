@@ -154,6 +154,65 @@ export default function Projects() {
           </a>
         </FadeIn>
 
+
+      <FadeIn as="div">
+  <a
+    href="https://web-sql-ihsg-historical-market-anal.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-card"
+  >
+    <div
+      className="project-orb"
+      style={{
+        width: 300,
+        height: 300,
+        background: "rgba(139,92,246,0.15)",
+        top: -80,
+        right: -80
+      }}
+    />
+    <div
+      className="project-orb"
+      style={{
+        width: 200,
+        height: 200,
+        background: "rgba(99,102,241,0.1)",
+        bottom: -40,
+        left: "20%"
+      }}
+    />
+
+    <div className="project-tags">
+      <span style={{ fontSize: "2rem" }}>&#128451;&#65039;</span>
+      <span className="project-tag">SQL</span>
+      <span className="project-tag">PostgreSQL</span>
+      <span className="project-tag">Data Management</span>
+      <span className="project-tag">Data Quality</span>
+      <span className="project-tag">Window Functions</span>
+    </div>
+
+    <h3 className="project-title">
+      Historical IHSG Analysis with SQL
+    </h3>
+
+    <p className="project-desc">
+      An end-to-end SQL data analysis project using 7,681 IHSG trading days
+      from 1995–2026. The project covers data quality validation, aggregation,
+      table joins, window functions, trend analysis, volatility, drawdown,
+      seasonality, and correlation using PostgreSQL. 
+    </p>
+
+    <div className="project-link">
+      <span>View Case Study</span>
+      <div className="project-link-arrow">-&gt;</div>
+    </div>
+  </a>
+</FadeIn>        
+
+
+
+
       <FadeIn as="div">
       <a
         href="https://lead-conversion-project-edu-tech.vercel.app/"
