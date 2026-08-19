@@ -139,12 +139,10 @@ export default function Projects() {
             </h3>
 
             <p className="project-desc">
-              An end-to-end analysis of 7,681 IHSG trading days from 1995–2025,
-              covering data validation, feature engineering, exploratory data analysis,
-              market volatility, drawdown, crisis-recovery cycles, seasonality, and
-              volume-price relationships. Statistical validation was performed using
-              non-parametric tests, with findings presented through an interactive
-              Tableau dashboard.
+             An end-to-end Python analytics pipeline processing 7,681 IHSG trading days across 30 years of market history (1995–2025). 
+             This project integrates data validation, feature engineering, and Exploratory Data Analysis (EDA) to dissect volatility shifts, 
+             market drawdowns, and crisis-recovery cycles. Insights were rigorously validated using non-parametric statistical tests and translated 
+             into 1 comprehensive, interactive Tableau dashboard for executive-level storytelling.
             </p>
 
             <div className="project-link">
@@ -289,8 +287,8 @@ export default function Projects() {
           </div>
           <h3 className="project-title">Tableau Data Visualization</h3>
           <p className="project-desc">
-            An interactive Tableau Public dashboard turning raw data into clear,
-            explorable visual insights.
+           An interactive Tableau Public dashboard analyzing coffee shop performance, 
+           highlighting top-selling products, peak operating hours, busiest days, and monthly sales trends by product category.
           </p>
           <div className="project-link">
             <span>View Project</span>
