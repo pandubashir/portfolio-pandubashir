@@ -157,7 +157,7 @@ export default function Projects() {
 
       <FadeIn as="div">
   <a
-    href="https://web-sql-ihsg-historical-market-anal.vercel.app/"
+    href="https://ihsg-market-database-and-risk-analytics-sql.vercel.app/"
     target="_blank"
     rel="noopener noreferrer"
     className="project-card"
@@ -197,10 +197,9 @@ export default function Projects() {
     </h3>
 
     <p className="project-desc">
-      An end-to-end SQL data analysis project using 7,681 IHSG trading days
-      from 1995–2026. The project covers data quality validation, aggregation,
-      table joins, window functions, trend analysis, volatility, drawdown,
-      seasonality, and correlation using PostgreSQL. 
+    End-to-end PostgreSQL data analytics project exploring 31 years of market evolution (1995–2026) across 7,681+ historical trading days. 
+    Engineered using 23 complex SQL queries (including advanced window functions, CTEs, and automated anomaly checks) 
+    to extract 4 core headline metrics and 4 deep-dive technical insights on growth, risk, and liquidity.
     </p>
 
     <div className="project-link">
