@@ -34,11 +34,11 @@ export default function Projects() {
           </div>
           <h3 className="project-title">Telco Customer Churn Prediction</h3>
           <p className="project-desc">
-            An end-to-end machine learning project predicting customer churn risk
-            for a telecommunications company using the public Telco Customer Churn
-            dataset (IBM/Kaggle). Covers EDA, data preparation, multiple
-            classification model experiments, model evaluation and interpretation,
-            deployed as an interactive web dashboard.
+            End-to-end churn prediction on 7,043 telco customers (IBM/Kaggle
+            dataset) — benchmarked 3 models, tuned XGBoost to <strong>94.4% recall</strong>
+            (0.85 ROC-AUC), validated the decision threshold with financial
+            breakeven analysis, and deployed as an interactive Streamlit dashboard
+            with SHAP explanations.
           </p>
           <div className="project-link">
             <span>View Project</span>
@@ -265,38 +265,67 @@ export default function Projects() {
       
 
 
-       <FadeIn as="div">
-        <a
-          href="https://public.tableau.com/shared/95HDQKTNZ?:display_count=n&:origin=viz_share_link"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="project-card"
-        >
-          <div
-            className="project-orb"
-            style={{ width: 300, height: 300, background: "rgba(139,92,246,0.15)", top: -80, right: -80 }}
-          />
-          <div
-            className="project-orb"
-            style={{ width: 200, height: 200, background: "rgba(99,102,241,0.1)", bottom: -40, left: "20%" }}
-          />
-          <div className="project-tags">
-            <span style={{ fontSize: "2rem" }}>&#128200;</span>
-            <span className="project-tag">Data Visualization</span>
-            <span className="project-tag">Tableau</span>
-            <span className="project-tag">Data Analysis</span>
-          </div>
-          <h3 className="project-title">Tableau Data Visualization</h3>
-          <p className="project-desc">
-           An interactive Tableau Public dashboard analyzing coffee shop performance, 
-           highlighting top-selling products, peak operating hours, busiest days, and monthly sales trends by product category.
-          </p>
-          <div className="project-link">
-            <span>View Project</span>
-            <div className="project-link-arrow">-&gt;</div>
-          </div>
-        </a>
-      </FadeIn>
+      <FadeIn as="div">
+  <a
+    href="https://web-coffee-shop-sales-analysis.vercel.app/" // Replace with your portfolio/demo link
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-card"
+  >
+    {/* Visual background ambient orbs */}
+    <div
+      className="project-orb"
+      style={{
+        width: 300,
+        height: 300,
+        background: "rgba(217, 119, 6, 0.15)", // Warm amber / coffee accent
+        top: -80,
+        right: -80
+      }}
+    />
+    <div
+      className="project-orb"
+      style={{
+        width: 200,
+        height: 200,
+        background: "rgba(180, 83, 9, 0.1)",
+        bottom: -40,
+        left: "20%"
+      }}
+    />
+
+    {/* Tags / Technologies Used */}
+    <div className="project-tags">
+      <span style={{ fontSize: "2rem" }}>&#9749;</span>
+      <span className="project-tag">Data Analysis</span>
+      <span className="project-tag">Data Visualization</span>
+      <span className="project-tag">Google Sheets</span>
+      <span className="project-tag">Excel</span>
+      <span className="project-tag">Tableau</span>
+      <span className="project-tag">Power BI</span>
+    </div>
+
+    {/* Project Title */}
+    <h3 className="project-title">
+      Coffee Shop Sales Analysis: From Raw Data to Daily Decisions
+    </h3>
+
+    {/* Project Description */}
+    <p className="project-desc">
+      A data analytics case study from the RevoU Mini Bootcamp processing 149,116 sales transaction records 
+      across coffee shop locations in New York City (Jan–Jun). This project transformed raw data into actionable business insights 
+      using multidimensional aggregation (Google Sheets & Excel Pivot Tables) alongside interactive Tableau Public and Power BI dashboards. 
+      The analysis evaluates top-selling products (inventory priority), peak traffic days (staffing optimization), peak revenue hours (shift scheduling), 
+      and monthly category trends to drive data-informed marketing strategies.
+    </p>
+
+    {/* Call to Action Link */}
+    <div className="project-link">
+      <span>View Case Study</span>
+      <div className="project-link-arrow">-&gt;</div>
+    </div>
+  </a>
+</FadeIn>
 
 
       <FadeIn as="div">
