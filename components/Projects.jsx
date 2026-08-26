@@ -8,6 +8,7 @@ export default function Projects() {
         My Best Creations.
       </FadeIn>
 
+      <div className="projects-grid">
        <FadeIn as="div">
         <a
           href="https://web-churn-prediction-telco-ncvt4xouveak9nk23l4xi4.streamlit.app/"
@@ -399,6 +400,7 @@ export default function Projects() {
           </div>
         </a>
       </FadeIn>
+      </div>
 
     </section>
   );
