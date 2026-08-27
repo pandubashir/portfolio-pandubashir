@@ -267,7 +267,7 @@ export default function Projects() {
 
       <FadeIn as="div">
   <a
-    href="https://web-coffee-shop-sales-analysis.vercel.app/" // Replace with your portfolio/demo link
+    href="https://web-coffeshoop-analysis.vercel.app/" // Replace with your portfolio/demo link
     target="_blank"
     rel="noopener noreferrer"
     className="project-card"
@@ -351,8 +351,10 @@ export default function Projects() {
           </div>
           <h3 className="project-title">Life Dashboard</h3>
           <p className="project-desc">
-            A personal dashboard web app for tracking daily activities, goals,
-            and habits in one clean, centralized interface.
+           A personal productivity dashboard for tracking focus sessions, tasks, and
+            quick links in one clean interface. Originally built during a RevoU
+            Software Engineering Bootcamp, then independently extended into a
+            full production app with React, TypeScript, and a Supabase backend.
           </p>
           <div className="project-link">
             <span>View Project</span>
