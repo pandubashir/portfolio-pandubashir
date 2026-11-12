@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
+import Certificates from "@/components/Certificates";
 import Footer from "@/components/Footer";
 import MusicPlayer from "@/components/MusicPlayer";
 import CustomCursor from "@/components/CustomCursor";
@@ -21,6 +22,7 @@ export default function Home() {
           <Skills />
           <About />
           <Projects />
+          <Certificates />
           <Footer />
         </div>
         <MusicPlayer />
